@@ -4,7 +4,7 @@ Thanks for playing **Budgie**!
 
 If you need help, have feedback, or want to report an issue, please contact:
 
-📧 **Email:** support@budgie.com
+📧 **Email:** support@budgie-app.com.au
 
 ---
 
