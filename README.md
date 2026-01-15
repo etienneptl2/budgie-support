@@ -4,7 +4,7 @@ Thanks for playing **Budgie**!
 
 If you need help, have feedback, or want to report an issue, please contact:
 
-📧 **Email:** support@budgie-app.com.au
+📧 **Email:** support@tap-app.com.au
 
 ---
 
@@ -29,4 +29,10 @@ All entries are stored **locally on your device**.
 
 ## About This Page
 
-This repository hosts the official support page for the **Budgie** mobile game.
+This repository hosts the official support page for the **Budgie** mobile application.
+
+---
+
+## Legal
+
+[Privacy Policy](./privacy.md)
