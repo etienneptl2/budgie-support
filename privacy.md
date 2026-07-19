@@ -5,16 +5,16 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 18 July 2026_
+_Last updated: 19 July 2026_
 
 ---
 
 ## 1. Introduction
 This Privacy Policy explains how **Budgie** (“the App”, “we”, “us”) collects, uses, stores, and protects your information.
 
-Budgie is a personal budgeting app. By default your budgeting data is kept **locally on your device**, but the App also offers optional features — signing in, cloud sync, and a paid **Budgie Pro** subscription — that involve storing data on third‑party servers, and it displays advertising. This policy describes all of those cases.
+Budgie is available in multiple countries, and we are committed to protecting your privacy regardless of where you live. Depending on your location, different privacy laws may apply to you, and you may have additional rights under your local law (see Section 7).
 
-We are committed to handling your information in accordance with the **Australian Privacy Act 1988** and the **Australian Privacy Principles (APPs)**. By using the App, you agree to this policy.
+Budgie is a personal budgeting app. By default your budgeting data is kept **locally on your device**, but the App also offers optional features — signing in, cloud sync, and a paid **Budgie Pro** subscription — that involve storing data on third‑party servers, and it displays advertising. This policy describes all of those cases. By using the App, you agree to this policy.
 
 ---
 
@@ -37,7 +37,7 @@ This data is stored **locally on your device** by default. It is only transmitte
 Cloud sync is **off by default** and requires an active **Budgie Pro** subscription (see 2.6). If you sign in, subscribe to Budgie Pro, and turn on **“Sync to cloud,”** your budgeting data (entries, budgets, recurring series, custom categories, and settings) is stored in **Google Firebase Firestore** under your account so it can sync across your devices. You can turn sync off at any time in Settings, and sync stops automatically if your subscription lapses.
 
 ### 2.4 Advertising Data
-The App displays advertisements served by **Google AdMob**. To deliver and measure ads, Google may collect device identifiers, IP address, and usage data. On iOS, the App uses **App Tracking Transparency** to ask your permission before any tracking that requires it. Users in the EEA and UK are shown a **GDPR consent form** (via Google’s User Messaging Platform) and can choose personalized or non‑personalized ads. Advertising is **removed entirely for Budgie Pro subscribers** (see 2.6).
+The App displays advertisements served by **Google AdMob**. To deliver and measure ads, Google may collect device identifiers, IP address, and usage data. On iOS, the App uses **App Tracking Transparency** to ask your permission before any tracking that requires it. Users in the EEA and UK are shown a **consent form** (via Google’s User Messaging Platform) and can choose personalized or non‑personalized ads. Advertising is **removed entirely for Budgie Pro subscribers** (see 2.6).
 
 ### 2.5 Automatically Collected Data
 When you use cloud sync or see ads, standard technical information (such as device type, operating system, and IP address) may be processed by the relevant third‑party service to operate that feature securely.
@@ -67,11 +67,15 @@ All budgeting calculations, charts, and insights are produced **on your device**
 ## 4. Third‑Party Services
 Budgie relies on the following third‑party services, each governed by its own privacy policy:
 
-- **Google Firebase (Authentication & Firestore)** — used for sign‑in and optional cloud sync.
-- **Google AdMob** — used to display advertising, with consent management (UMP) and App Tracking Transparency.
-- **Sign in with Apple** and **Google Sign‑In** — used to authenticate your account.
-- **RevenueCat** — used to validate in‑app purchases and manage your Budgie Pro subscription and entitlements.
-- **Apple App Store** and **Google Play** — process subscription billing and payments.
+| Service | Purpose |
+| --- | --- |
+| **Firebase Authentication** | User sign‑in (via Apple or Google) |
+| **Firebase Firestore** | Optional cloud data storage and sync |
+| **Google AdMob** | Advertising |
+| **Google User Messaging Platform (UMP)** | Ad consent management |
+| **Sign in with Apple / Google Sign‑In** | Account authentication |
+| **RevenueCat** | Subscription validation and entitlements |
+| **Apple App Store / Google Play** | Subscription billing and payments |
 
 Google’s handling of data is governed by the [Google Privacy Policy](https://policies.google.com/privacy). Apple’s handling of Sign in with Apple is governed by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -87,40 +91,61 @@ You can manage how ads are personalized:
 
 ---
 
-## 6. Your Rights
-Under the Australian Privacy Principles (and equivalent laws where applicable), you may:
-- Access the personal information we hold about you
-- Request correction of inaccurate information
-- Opt out of personalized advertising
-- Request deletion of your account and associated data
-- Lodge a complaint with the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au)
+## 6. Your Privacy Rights
+Depending on where you live, you may have some or all of the following rights in relation to the personal information we hold about you:
+- **Access** the personal information we hold about you
+- **Correct** inaccurate or incomplete information
+- **Delete** your account and associated data
+- **Opt out** of personalized advertising
+- **Withdraw consent** where our processing relies on your consent
+- **Lodge a complaint** with your local privacy regulator
+
+To exercise any of these rights, use the in‑app controls (for example **Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
 
 ---
 
-## 7. Data Retention & Deletion
+## 7. Applicable Privacy Laws
+Budgie is offered internationally. The privacy laws that apply to you depend on where you live.
+
+### Australia
+We handle your information in accordance with the **Australian Privacy Act 1988** and the **Australian Privacy Principles (APPs)**. If you are in Australia and have a privacy complaint, you may contact us (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
+
+### United States (including California)
+We do **not** sell your personal information. If you are a California resident, you may have rights under the **California Consumer Privacy Act (CCPA/CPRA)**, including to know what personal information we process, to request its deletion, and to opt out of personalized advertising. You can limit ad personalization using the choices described in Section 5.
+
+### Other countries
+Many countries have their own privacy laws, most of which provide rights similar to those in Section 6. Where such laws apply to you, we will honour the rights they grant. If you have questions about your rights, or wish to reach the privacy regulator in your country, please contact us (see Section 12).
+
+---
+
+## 8. Data Retention & Deletion
 - **Local data** remains on your device until you delete it within the App or uninstall the App. Uninstalling removes all locally stored data.
 - **Cloud sync data** is stored until you delete it. You can permanently delete your account and all associated cloud data at any time via **Settings → Delete account**, which removes your Firebase authentication record and your Firestore data.
 - **Subscription and purchase records** held by RevenueCat and the app stores are retained under their respective policies. You manage or cancel a Budgie Pro subscription through your Apple App Store or Google Play account.
-- Alternatively, you can request deletion by emailing us (see Section 11).
+- Alternatively, you can request deletion by emailing us (see Section 12).
 
 ---
 
-## 8. Children’s Privacy
+## 9. Children’s Privacy
 Budgie is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can delete it.
 
----
-
-## 9. Data Security & International Transfers
-We rely on the security measures provided by Google Firebase and Apple to protect data handled through those services. Because these providers operate globally, your data may be stored or processed on servers located outside Australia. No method of transmission or storage is completely secure, but we take reasonable steps to protect your information.
+This age refers to the collection of personal information and is separate from the minimum age to accept our [Terms of Use](./terms.md) and from the age‑suitability rating shown for the App on the Apple App Store and Google Play.
 
 ---
 
-## 10. Updates to This Policy
+## 10. Data Security & International Transfers
+Data handled through **Google Firebase / Firestore** is **encrypted in transit** (using TLS) and **encrypted at rest** on Google’s servers, using the security measures provided by Google. This is standard server‑side encryption; it is **not** end‑to‑end encryption, which means the providers that operate these services are technically able to access the data in order to run them. On your device, budgeting data is protected by your device’s standard operating‑system protections.
+
+Because Google, Apple, and our other providers operate globally, your information may be stored or processed on servers located **outside your country**, including in countries whose data‑protection laws differ from your own. We use established, widely‑used providers and take reasonable steps to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
+
+---
+
+## 11. Updates to This Policy
 This Privacy Policy may be updated periodically. Any changes take effect once posted within the App or on this page. The “Last updated” date above reflects the latest revision.
 
 ---
 
-## 11. Contact
-For questions, concerns, or requests regarding this Privacy Policy or your data, contact:
+## 12. Contact
+If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:
 
 📧 **support@tap-app.com.au**

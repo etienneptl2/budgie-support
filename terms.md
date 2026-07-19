@@ -13,7 +13,7 @@ _Last updated: 18 July 2026_
 Welcome to Budgie ("the App"). These Terms of Use ("Terms") form a binding agreement between you and the developer of Budgie. By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, you must stop using the App.
 
 ## Eligibility
-You must be at least 16 years old, or have the consent of a parent or guardian, to use the App. By using the App, you confirm that you meet this requirement.
+You must be at least 16 years old, or have the consent of a parent or guardian, to use the App. By using the App, you confirm that you meet this requirement. This is the minimum age to agree to these Terms and is separate from the children’s‑privacy age referred to in our [Privacy Policy](./privacy.md) and from the age‑suitability rating shown for the App on the app stores.
 
 ## Licence
 We grant you a personal, non‑exclusive, non‑transferable, revocable licence to use the App for your own personal, non‑commercial budgeting purposes, in accordance with these Terms and the rules of the app store from which you obtained the App.
