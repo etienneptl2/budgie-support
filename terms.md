@@ -5,7 +5,7 @@ layout: default
 
 # Terms of Use (End User License Agreement)
 **Budgie**
-_Last updated: 18 July 2026_
+_Last updated: 15 August 2026_
 
 ---
 
@@ -19,7 +19,16 @@ You must be at least 16 years old, or have the consent of a parent or guardian, 
 We grant you a personal, non‑exclusive, non‑transferable, revocable licence to use the App for your own personal, non‑commercial budgeting purposes, in accordance with these Terms and the rules of the app store from which you obtained the App.
 
 ## Use of the App
-Budgie is a personal budgeting tool that helps you record income and expenses, set budgets and savings goals, and view summaries and insights. The App is provided for **informational and personal organisation purposes only** and does **not** constitute financial, investment, accounting, tax, or legal advice. You are solely responsible for any decisions you make based on information in the App.
+Budgie is a personal budgeting tool that helps you record income and expenses, set budgets and savings goals, and view summaries and insights, including optional AI‑generated insights. The App is provided for **informational and personal organisation purposes only** and does **not** constitute financial, investment, accounting, tax, or legal advice. You are solely responsible for any decisions you make based on information in the App.
+
+## AI Insights
+Budgie can generate short "insight cards" about your spending. These cards are written by an AI model provided by **OpenAI**, based on an aggregated summary of your budgeting data.
+
+- **Opt‑in.** AI insights are **off by default**. Nothing is sent for analysis unless you turn the feature on in **Settings → AI insights**, and the feature requires you to be signed in. See our [Privacy Policy](./privacy.md) for exactly what is sent and what never leaves your device.
+- **Unlocking cards.** Cards can be unlocked by watching a rewarded advertisement. **Budgie Pro** subscribers get a higher daily allowance and an ad‑free experience.
+- **Not financial advice.** AI‑generated insights are provided for **informational and personal organisation purposes only**. They do **not** constitute financial, investment, accounting, tax, or legal advice, and they are not a recommendation to buy, sell, or use any financial product. You are solely responsible for any decisions you make in response to them.
+- **Accuracy.** AI models can produce output that is incomplete, misleading, or wrong. While Budgie takes steps to ground each card in your own figures and checks the results before showing them, we do **not** warrant that any insight is accurate, complete, or suitable for your circumstances. Always check a card against your own records before acting on it.
+- **Fair use and availability.** Generation is subject to daily limits, and we may change, limit, suspend, or discontinue AI insights — or the provider behind them — at any time. The feature also requires a working internet connection and depends on a third‑party service that may be unavailable.
 
 ## Subscriptions & In‑App Purchases (Budgie Pro)
 Budgie offers an optional paid subscription, **Budgie Pro**, which unlocks **cloud sync** across your devices and an **ad‑free** experience. Budgie Pro is offered as an **auto‑renewing subscription** on a **monthly** or **yearly** basis.
@@ -43,7 +52,8 @@ The App may display advertisements, including those served through **Google AdMo
 ## Third‑Party Services
 The App uses third‑party services, including:
 
-- **Google Firebase (Authentication & Firestore):** to authenticate sign‑in and to store and sync your data when cloud sync is enabled.
+- **Google Firebase (Authentication, Firestore & Cloud Functions):** to authenticate sign‑in, to store and sync your data when cloud sync is enabled, and to relay AI insight requests.
+- **OpenAI:** to generate AI insight cards from an aggregated summary of your budgeting data, when you have opted in. Your use of this feature is also subject to OpenAI's terms and privacy policy.
 - **Google AdMob:** to display advertising.
 - **Sign in with Apple / Google Sign‑In:** to authenticate your account.
 - **RevenueCat:** to validate in‑app purchases and manage your Budgie Pro subscription. Billing is processed by the **Apple App Store** or **Google Play**.
