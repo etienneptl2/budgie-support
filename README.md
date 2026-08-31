@@ -28,7 +28,7 @@ If you subscribe to **Budgie Pro**, **sign in** (with Apple or Google), and turn
 
 ### What are AI insights, and what gets sent?
 
-**AI insights** are short cards about your spending, written by an AI model from OpenAI. The feature is **off by default** — nothing is sent unless you turn on **Settings → AI insights** while signed in.
+**AI insights** are short cards about your spending, written by an AI model from OpenAI. The feature is **off by default** — nothing is sent unless you turn on **Profile → AI insights** while signed in.
 
 When it's on, Budgie sends **aggregated totals** — monthly income and spending, per‑category totals, and your budgets and goals (including the names you gave them). Your **notes and individual transactions never leave your device**, nothing identifying you is sent to OpenAI, and your data is **not used to train any AI model**. Turning the switch off deletes the cards on your device. See section 2.7 of the [Privacy Policy](./privacy.md).
 

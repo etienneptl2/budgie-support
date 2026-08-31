@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 15 August 2026_
+_Last updated: 31 August 2026_
 
 ---
 
@@ -52,7 +52,7 @@ We do **not** collect or store your bank account or payment card details, and Bu
 ### 2.7 AI Insights Data (OpenAI)
 Budgie can generate short "insight cards" about your spending — a surprising total, a change since last month, a suggestion tied to one of your goals. Writing those cards requires sending a summary of your finances to **OpenAI**, which acts as a processor on our behalf.
 
-**This feature is off by default.** It is a per‑device opt‑in: nothing is sent to OpenAI unless you turn on **Settings → AI insights → Write insights**, and it also requires that you are signed in. Insights are available to all users — free users unlock each card by watching a rewarded ad, and Budgie Pro subscribers get a higher daily allowance without ads (see 2.6).
+**This feature is off by default.** It is a per‑device opt‑in: nothing is sent to OpenAI unless you turn on **Profile → AI insights → Write insights**, and it also requires that you are signed in. Insights are available to all users — free users unlock each card by watching a rewarded ad, and Budgie Pro subscribers get a higher daily allowance without ads (see 2.6).
 
 **What is sent.** When you generate insights, the App builds a summary on your device and sends it, via our own secure server function, to OpenAI. That summary contains **aggregated figures covering roughly the last six months**:
 
@@ -73,7 +73,7 @@ Because goal names, budget names, and any custom category names you create are y
 
 **What we store.** The cards that come back are stored **on your device only** — we do not keep a copy, and they are not written to cloud sync. On our servers we keep a simple **daily counter** of how many times you have generated insights (a date and a number, linked to your account), purely to enforce fair‑use limits and control costs. That counter contains none of your financial data. Our server logs may record an account identifier and technical error details when a generation fails, so that we can diagnose problems.
 
-**Your control.** You can turn insights off at any time in **Settings → AI insights**. Turning the switch off **deletes the cards already generated on your device** and stops anything further being sent. Deleting your account (Section 8) also removes the usage counter described above.
+**Your control.** You can turn insights off at any time in **Profile → AI insights**. Turning the switch off **deletes the cards already generated on your device** and stops anything further being sent. Deleting your account (Section 8) also removes the usage counter described above.
 
 ---
 
@@ -109,7 +109,7 @@ Budgie relies on the following third‑party services, each governed by its own 
 
 Google’s handling of data is governed by the [Google Privacy Policy](https://policies.google.com/privacy). Apple’s handling of Sign in with Apple is governed by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/). OpenAI’s handling of data sent for AI insights is governed by the [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy).
 
-We do **not** sell your personal or financial data to any third party, and we do **not** allow any third party to use your budgeting data to train AI models.
+We do **not** sell your personal or financial data for money, and we do **not** allow any third party to use your budgeting data to train AI models. However, when personalized advertising is enabled, our advertising partners may receive advertising identifiers and app usage data. Under some US state privacy laws — including the CCPA/CPRA in California — this kind of cross‑context behavioural advertising is treated as a “sale” or “sharing” of personal information. You can opt out at any time; see Section 5.
 
 ---
 
@@ -119,6 +119,8 @@ You can manage how ads are personalized:
 - On **Android**, you can reset or limit your advertising ID in your device settings.
 - In the EEA/UK, you can re‑open the consent form at any time via **Settings → Privacy options**.
 
+If you are a US resident, you can opt out of the sale or sharing of your personal information for cross‑context behavioural advertising at any time via **Settings → Privacy options** in the App. Opting out does not remove ads; it means the ads you see are not personalized. You can remove ads entirely by subscribing to **Budgie Pro**.
+
 ---
 
 ## 6. Your Privacy Rights
@@ -127,7 +129,7 @@ Depending on where you live, you may have some or all of the following rights in
 - **Correct** inaccurate or incomplete information
 - **Delete** your account and associated data
 - **Opt out** of personalized advertising
-- **Opt out** of AI insights, by turning the feature off in **Settings → AI insights**
+- **Opt out** of AI insights, by turning the feature off in **Profile → AI insights**
 - **Withdraw consent** where our processing relies on your consent
 - **Lodge a complaint** with your local privacy regulator
 
@@ -142,7 +144,11 @@ Budgie is offered internationally. The privacy laws that apply to you depend on 
 We handle your information in accordance with the **Australian Privacy Act 1988** and the **Australian Privacy Principles (APPs)**. If you are in Australia and have a privacy complaint, you may contact us (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
 
 ### United States (including California)
-We do **not** sell your personal information. If you are a California resident, you may have rights under the **California Consumer Privacy Act (CCPA/CPRA)**, including to know what personal information we process, to request its deletion, and to opt out of personalized advertising. You can limit ad personalization using the choices described in Section 5.
+Depending on your state of residence, you may have rights under state privacy laws such as the **California Consumer Privacy Act (CCPA/CPRA)** and comparable laws in other US states. These may include the right to know what personal information we process, to request a copy of it, to correct it, to request its deletion, and to opt out of the sale or sharing of your personal information for targeted or cross‑context behavioural advertising.
+
+We do **not** sell your personal information for money. As explained in Section 4, personalized advertising may nonetheless constitute a “sale” or “sharing” under these laws. To opt out, use **Settings → Privacy options** in the App, or decline tracking when prompted on iOS. You can also limit ad personalization using the other choices described in Section 5.
+
+To exercise access, correction or deletion rights, contact us (see Section 12). You can also delete your account and its synced data yourself at any time via **Settings → Delete account** in the App. We will not discriminate against you for exercising any of these rights.
 
 ### Other countries
 Many countries have their own privacy laws, most of which provide rights similar to those in Section 6. Where such laws apply to you, we will honour the rights they grant. If you have questions about your rights, or wish to reach the privacy regulator in your country, please contact us (see Section 12).
@@ -152,7 +158,7 @@ Many countries have their own privacy laws, most of which provide rights similar
 ## 8. Data Retention & Deletion
 - **Local data** remains on your device until you delete it within the App or uninstall the App. Uninstalling removes all locally stored data.
 - **Cloud sync data** is stored until you delete it. You can permanently delete your account and all associated cloud data at any time via **Settings → Delete account**, which removes your Firebase authentication record and your Firestore data.
-- **AI insight cards** are held on your device only, and are refreshed or replaced as your data changes. They are deleted when you turn off **Settings → AI insights**, when you erase your data, or when you delete your account. The summary sent to OpenAI is retained by OpenAI for a limited period (currently up to 30 days) for abuse monitoring and then deleted, under their API policy; the daily usage counter we keep is removed when you delete your account.
+- **AI insight cards** are held on your device only, and are refreshed or replaced as your data changes. They are deleted when you turn off **Profile → AI insights**, when you erase your data, or when you delete your account. The summary sent to OpenAI is retained by OpenAI for a limited period (currently up to 30 days) for abuse monitoring and then deleted, under their API policy; the daily usage counter we keep is removed when you delete your account.
 - **Subscription and purchase records** held by RevenueCat and the app stores are retained under their respective policies. You manage or cancel a Budgie Pro subscription through your Apple App Store or Google Play account.
 - Alternatively, you can request deletion by emailing us (see Section 12).
 
