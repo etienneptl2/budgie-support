@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 15 August 2026_
+_Last updated: 31 August 2026_
 
 ---
 
@@ -109,7 +109,7 @@ Budgie relies on the following third‑party services, each governed by its own 
 
 Google’s handling of data is governed by the [Google Privacy Policy](https://policies.google.com/privacy). Apple’s handling of Sign in with Apple is governed by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/). OpenAI’s handling of data sent for AI insights is governed by the [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy).
 
-We do **not** sell your personal or financial data to any third party, and we do **not** allow any third party to use your budgeting data to train AI models.
+We do **not** sell your personal or financial data for money, and we do **not** allow any third party to use your budgeting data to train AI models. However, when personalized advertising is enabled, our advertising partners may receive advertising identifiers and app usage data. Under some US state privacy laws — including the CCPA/CPRA in California — this kind of cross‑context behavioural advertising is treated as a “sale” or “sharing” of personal information. You can opt out at any time; see Section 5.
 
 ---
 
@@ -118,6 +118,8 @@ You can manage how ads are personalized:
 - On **iOS**, you can change tracking permission in your device’s Settings, and review your choices via **Settings → Privacy options** in the App (where available).
 - On **Android**, you can reset or limit your advertising ID in your device settings.
 - In the EEA/UK, you can re‑open the consent form at any time via **Settings → Privacy options**.
+
+If you are a US resident, you can opt out of the sale or sharing of your personal information for cross‑context behavioural advertising at any time via **Settings → Privacy options** in the App. Opting out does not remove ads; it means the ads you see are not personalized. You can remove ads entirely by subscribing to **Budgie Pro**.
 
 ---
 
@@ -142,7 +144,11 @@ Budgie is offered internationally. The privacy laws that apply to you depend on 
 We handle your information in accordance with the **Australian Privacy Act 1988** and the **Australian Privacy Principles (APPs)**. If you are in Australia and have a privacy complaint, you may contact us (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
 
 ### United States (including California)
-We do **not** sell your personal information. If you are a California resident, you may have rights under the **California Consumer Privacy Act (CCPA/CPRA)**, including to know what personal information we process, to request its deletion, and to opt out of personalized advertising. You can limit ad personalization using the choices described in Section 5.
+Depending on your state of residence, you may have rights under state privacy laws such as the **California Consumer Privacy Act (CCPA/CPRA)** and comparable laws in other US states. These may include the right to know what personal information we process, to request a copy of it, to correct it, to request its deletion, and to opt out of the sale or sharing of your personal information for targeted or cross‑context behavioural advertising.
+
+We do **not** sell your personal information for money. As explained in Section 4, personalized advertising may nonetheless constitute a “sale” or “sharing” under these laws. To opt out, use **Settings → Privacy options** in the App, or decline tracking when prompted on iOS. You can also limit ad personalization using the other choices described in Section 5.
+
+To exercise access, correction or deletion rights, contact us (see Section 12). You can also delete your account and its synced data yourself at any time via **Settings → Delete account** in the App. We will not discriminate against you for exercising any of these rights.
 
 ### Other countries
 Many countries have their own privacy laws, most of which provide rights similar to those in Section 6. Where such laws apply to you, we will honour the rights they grant. If you have questions about your rights, or wish to reach the privacy regulator in your country, please contact us (see Section 12).
