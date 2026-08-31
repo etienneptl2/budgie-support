@@ -24,7 +24,7 @@ Budgie is a personal budgeting tool that helps you record income and expenses, s
 ## AI Insights
 Budgie can generate short "insight cards" about your spending. These cards are written by an AI model provided by **OpenAI**, based on an aggregated summary of your budgeting data.
 
-- **Opt‑in.** AI insights are **off by default**. Nothing is sent for analysis unless you turn the feature on in **Settings → AI insights**, and the feature requires you to be signed in. See our [Privacy Policy](./privacy.md) for exactly what is sent and what never leaves your device.
+- **Opt‑in.** AI insights are **off by default**. Nothing is sent for analysis unless you turn the feature on in **Profile → AI insights**, and the feature requires you to be signed in. See our [Privacy Policy](./privacy.md) for exactly what is sent and what never leaves your device.
 - **Unlocking cards.** Cards can be unlocked by watching a rewarded advertisement. **Budgie Pro** subscribers get a higher daily allowance and an ad‑free experience.
 - **Not financial advice.** AI‑generated insights are provided for **informational and personal organisation purposes only**. They do **not** constitute financial, investment, accounting, tax, or legal advice, and they are not a recommendation to buy, sell, or use any financial product. You are solely responsible for any decisions you make in response to them.
 - **Accuracy.** AI models can produce output that is incomplete, misleading, or wrong. While Budgie takes steps to ground each card in your own figures and checks the results before showing them, we do **not** warrant that any insight is accurate, complete, or suitable for your circumstances. Always check a card against your own records before acting on it.
