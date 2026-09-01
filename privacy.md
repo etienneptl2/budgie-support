@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 31 August 2026_
+_Last updated: 1 September 2026_
 
 ---
 
@@ -143,6 +143,15 @@ Budgie is offered internationally. The privacy laws that apply to you depend on 
 ### Australia
 We handle your information in accordance with the **Australian Privacy Act 1988** and the **Australian Privacy Principles (APPs)**. If you are in Australia and have a privacy complaint, you may contact us (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
 
+### Canada
+We handle your information in accordance with the **Personal Information Protection and Electronic Documents Act (PIPEDA)**. If you are in Canada and have a privacy complaint, you may contact our Privacy Officer (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Privacy Commissioner of Canada (OPC)** at [priv.gc.ca](https://priv.gc.ca).
+
+If you live in Quebec, you also have rights under the **Act respecting the protection of personal information in the private sector** (“Law 25”). These include the rights to be informed about, access, correct and delete your information, to withdraw your consent, and to receive a copy of the information you provided to us in a structured, commonly used technological format — you can export your data yourself at any time via **Settings → Export** in the App.
+
+Budgie shows advertising that uses profiling. You can deactivate this at any time by declining tracking when prompted on iOS, or by turning tracking off for Budgie in your device’s Settings at any time afterwards. Section 5 describes these choices in more detail.
+
+Quebec complaints may be directed to the **Commission d’accès à l’information du Québec (CAI)** at [cai.gouv.qc.ca](https://cai.gouv.qc.ca).
+
 ### United States (including California)
 Depending on your state of residence, you may have rights under state privacy laws such as the **California Consumer Privacy Act (CCPA/CPRA)** and comparable laws in other US states. These may include the right to know what personal information we process, to request a copy of it, to correct it, to request its deletion, and to opt out of the sale or sharing of your personal information for targeted or cross‑context behavioural advertising.
 
@@ -189,3 +198,5 @@ This Privacy Policy may be updated periodically. Any changes take effect once po
 If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:
 
 📧 **support@tap-app.com.au**
+
+**Privacy Officer.** Budgie's Privacy Officer is accountable for our compliance with this policy and with applicable privacy laws, and can be reached at support@tap-app.com.au.
