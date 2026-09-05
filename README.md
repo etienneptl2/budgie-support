@@ -55,3 +55,16 @@ This repository hosts the official support page for the **Budgie** mobile applic
 ## Legal
 
 [Privacy Policy](./privacy.md) · [Terms of Use (EULA)](./terms.md)
+
+`terms.md` is the source of truth for the EULA. The app links to the published
+page, but App Store Connect keeps its own **pasted copy** — its custom licence
+agreement is a plain-text field, not a URL. After changing `terms.md`, regenerate
+the paste-ready text and copy it into App Store Connect (Apps → Budgie → General
+→ App Information → License Agreement), or the two will drift apart:
+
+```bash
+python3 scripts/build-eula-text.py
+```
+
+That rewrites [`terms-appstore.txt`](./terms-appstore.txt); don't edit it by hand.
+`--check` exits non-zero when it is stale.
