@@ -1,0 +1,37 @@
+# Keeps terms-appstore.txt in step with terms.md.
+#
+# Check-only on purpose: the workflow never regenerates and pushes. The
+# generated text is the wording users actually read in App Store Connect, so it
+# should be visible in the diff being reviewed rather than appended by a bot
+# after approval. A failure here means: run the script, commit both files.
+#
+# Note this can only prove the two files agree in git. Whether the text has been
+# pasted into App Store Connect is outside anything CI can see -- see README.
+name: EULA
+
+on:
+  pull_request:
+    paths:
+      - terms.md
+      - terms-appstore.txt
+      - scripts/build-eula-text.py
+      - .github/workflows/eula.yml
+  push:
+    branches: [main]
+    paths:
+      - terms.md
+      - terms-appstore.txt
+      - scripts/build-eula-text.py
+      - .github/workflows/eula.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: terms-appstore.txt is up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # ubuntu-latest ships Python 3, so there is no setup step to keep current.
+      - run: python3 scripts/build-eula-text.py --check
