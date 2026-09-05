@@ -5,7 +5,7 @@ layout: default
 
 # Terms of Use (End User License Agreement)
 **Budgie**
-_Last updated: 15 August 2026_
+_Last updated: 5 September 2026_
 
 ---
 
@@ -75,6 +75,20 @@ We may suspend or terminate your access to the App at our discretion if you viol
 ## Governing Law
 These Terms are governed by the laws of the Commonwealth of Australia, and any disputes will be subject to the jurisdiction of the Australian courts, without affecting any mandatory consumer rights in your place of residence.
 
+## Apple App Store — Additional Terms
+These additional terms apply if you obtained the App from the **Apple App Store**. Apple requires them of any developer who supplies its own end‑user licence agreement. They **supplement** the rest of these Terms rather than replacing them; where this section conflicts with the rest of these Terms, this section applies to your App Store copy of the App. Nothing in this section limits any rights you have under the Australian Consumer Law or other mandatory consumer protections that cannot be lawfully excluded.
+
+- **These Terms are with us, not Apple.** This agreement is between you and us only, and not with Apple. We, not Apple, are solely responsible for the App and its content.
+- **Scope of licence.** The licence granted above is non‑transferable and permits you to use the App on any Apple‑branded product that you own or control, as permitted by the Usage Rules set out in the Apple Media Services Terms and Conditions.
+- **Maintenance and support.** We are solely responsible for providing any maintenance and support for the App. Apple has no obligation to furnish any maintenance or support services.
+- **Warranty.** We are solely responsible for any product warranties, whether express or implied by law, to the extent they are not effectively disclaimed. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price of the App to you. To the maximum extent permitted by law, Apple has no other warranty obligation whatsoever with respect to the App.
+- **Product claims.** We, not Apple, are responsible for addressing any claim by you or a third party relating to the App or your possession or use of it, including product liability claims, any claim that the App fails to conform to a legal or regulatory requirement, and claims arising under consumer protection, privacy, or similar law.
+- **Intellectual property claims.** If a third party claims that the App or your possession and use of it infringes that party’s intellectual property rights, we, not Apple, are solely responsible for the investigation, defence, settlement, and discharge of that claim.
+- **Legal compliance.** You represent and warrant that you are not located in a country that is subject to a US Government embargo, or that has been designated by the US Government as a “terrorist supporting” country, and that you are not listed on any US Government list of prohibited or restricted parties.
+- **Third‑party terms.** You must comply with any applicable third‑party terms when using the App. The services the App relies on are listed above under **Third‑Party Services**.
+- **Apple as third‑party beneficiary.** Apple and Apple’s subsidiaries are third‑party beneficiaries of these Terms. Upon your acceptance of these Terms, Apple has the right — and is deemed to have accepted the right — to enforce these Terms against you as a third‑party beneficiary.
+- **Questions and complaints.** Any questions, complaints, or claims about the App should be directed to us using the details under **Contact** below.
+
 ## Changes to These Terms
 We may update these Terms from time to time. Changes take effect once posted within the App or on this page. Your continued use of the App after changes are posted constitutes acceptance of the revised Terms.
 
@@ -82,3 +96,6 @@ We may update these Terms from time to time. Changes take effect once posted wit
 If you have any questions about these Terms, please contact us at:
 
 📧 **support@tap-app.com.au**
+
+📮 **Etienne Petrel**  
+Sydney NSW 2000, Australia
