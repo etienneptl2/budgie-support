@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 1 September 2026_
+_Last updated: 5 September 2026_
 
 ---
 
@@ -131,6 +131,8 @@ Depending on where you live, you may have some or all of the following rights in
 - **Opt out** of personalized advertising
 - **Opt out** of AI insights, by turning the feature off in **Profile → AI insights**
 - **Withdraw consent** where our processing relies on your consent
+- **Receive a copy** of the data you provided to us in a portable format — you can export it yourself at any time via **Settings → Export**
+- **Restrict or object to** certain processing, where your local law provides for it
 - **Lodge a complaint** with your local privacy regulator
 
 To exercise any of these rights, use the in‑app controls (for example **Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
@@ -151,6 +153,41 @@ If you live in Quebec, you also have rights under the **Act respecting the prote
 Budgie shows advertising that uses profiling. You can deactivate this at any time by declining tracking when prompted on iOS, or by turning tracking off for Budgie in your device’s Settings at any time afterwards. Section 5 describes these choices in more detail.
 
 Quebec complaints may be directed to the **Commission d’accès à l’information du Québec (CAI)** at [cai.gouv.qc.ca](https://cai.gouv.qc.ca).
+
+### European Economic Area & United Kingdom
+If you are in the EEA or the UK, we process your personal data in accordance with the **EU General Data Protection Regulation (GDPR)** and, in the UK, the **UK GDPR** and the **Data Protection Act 2018**.
+
+**Controller.** The controller of your personal data is **Etienne Petrel**, Sydney NSW 2000, Australia, the developer of Budgie, contactable at support@tap-app.com.au (see Section 12).
+
+**Representative in the EU and UK.** ⚠️ **DO NOT MERGE WITH THIS PLACEHOLDER.** Budgie is operated from outside the EEA and the UK, so Article 27 requires a designated representative in each unless an exemption applies. Replace this paragraph with the representative’s name and contact address, or with the reasoned basis for relying on the Art. 27(2) exemption, before this page goes live.
+
+**Legal bases.** We rely on the following legal bases under Article 6(1):
+
+| What we process | Why | Legal basis |
+| --- | --- | --- |
+| Account and profile data (2.1) | To create and authenticate your account | **Contract** — Art. 6(1)(b) |
+| Budgeting data held in cloud sync (2.3) | To provide cloud sync to Budgie Pro subscribers | **Contract** — Art. 6(1)(b) |
+| Subscription and purchase data (2.6) | To validate and manage your Budgie Pro subscription | **Contract** — Art. 6(1)(b) |
+| The aggregated summary sent for AI insights (2.7) | To generate insight cards | **Consent** — Art. 6(1)(a) |
+| Advertising identifiers and ad usage data (2.4) | To display and measure advertising | **Consent** — Art. 6(1)(a), gathered through the consent form described in Section 5 |
+| Automatically collected diagnostic data (2.5), abuse prevention and fair‑use limits | To keep the App secure and reliable, and to limit features that cost us money to run | **Legitimate interests** — Art. 6(1)(f) |
+| Records we are required to keep | To comply with our legal obligations | **Legal obligation** — Art. 6(1)(c) |
+
+Where we rely on **consent**, you can withdraw it at any time — through **Settings → Privacy options** for advertising, and **Profile → AI insights** for AI insights — without affecting the lawfulness of processing carried out before you withdrew it. Where we rely on **legitimate interests**, you can object at any time (see below).
+
+Budgeting data that never leaves your device is not processed by us at all.
+
+**Your rights.** In addition to the rights listed in Section 6, you have the right to:
+- **Restrict** our processing of your personal data in certain circumstances (Art. 18)
+- **Object** to processing based on our legitimate interests (Art. 21), and to object at any time to processing for direct marketing, including the ad profiling described in Section 5
+- **Data portability** — receive the personal data you provided to us in a structured, commonly used, machine‑readable format (Art. 20). You can export your budgeting data yourself at any time via **Settings → Export** in the App.
+- **Not be subject to a decision based solely on automated processing** that produces legal or similarly significant effects (Art. 22). We make no such decisions. AI insight cards are informational suggestions only; they do not decide anything about you, and nothing in the App changes based on them.
+
+We do not charge for exercising these rights, and we will respond within one month, as required by Art. 12(3).
+
+**Complaints.** You may lodge a complaint with the supervisory authority in the EEA member state where you live, work, or where you believe an infringement occurred — the full list is published by the [European Data Protection Board](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en). In the UK, the supervisory authority is the [Information Commissioner’s Office (ICO)](https://ico.org.uk). We would appreciate the chance to address your concern first (see Section 12), but you are not required to contact us before complaining.
+
+**International transfers.** Your data is stored and processed outside the EEA and the UK — see Section 10, which describes where, and the transfer safeguards we rely on.
 
 ### United States (including California)
 Depending on your state of residence, you may have rights under state privacy laws such as the **California Consumer Privacy Act (CCPA/CPRA)** and comparable laws in other US states. These may include the right to know what personal information we process, to request a copy of it, to correct it, to request its deletion, and to opt out of the sale or sharing of your personal information for targeted or cross‑context behavioural advertising.
@@ -178,6 +215,8 @@ Budgie is not directed at children under the age of 13, and we do not knowingly 
 
 This age refers to the collection of personal information and is separate from the minimum age to accept our [Terms of Use](./terms.md) and from the age‑suitability rating shown for the App on the Apple App Store and Google Play.
 
+If you are in the EEA or the UK, the age at which you can consent to the processing described in this policy on your own — the “digital consent age” under Article 8 of the GDPR — is **16**, unless the country you live in has set a lower age (member states may set it as low as 13). Below that age, the features that rely on consent — personalized advertising and AI insights — require the consent of a parent or guardian. Our [Terms of Use](./terms.md) separately require you to be at least 16, or to have a parent or guardian’s permission, to use the App at all.
+
 ---
 
 ## 10. Data Security & International Transfers
@@ -185,7 +224,9 @@ Data handled through **Google Firebase / Firestore** is **encrypted in transit**
 
 Summaries sent for **AI insights** travel over an encrypted (TLS) connection to our server function and on to OpenAI, and are processed on OpenAI's servers in the **United States**.
 
-Because Google, Apple, OpenAI, and our other providers operate globally, your information may be stored or processed on servers located **outside your country**, including in countries whose data‑protection laws differ from your own. We use established, widely‑used providers and take reasonable steps to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
+Because Google, Apple, OpenAI, and our other providers operate globally, your information may be stored or processed on servers located **outside your country**, including in countries whose data‑protection laws differ from your own. Specifically, cloud sync data is stored in **Google’s United States multi‑region**, and both our own server function and OpenAI’s processing of AI insight summaries take place in the **United States**.
+
+**Transfers out of the EEA and the UK.** Where we transfer personal data out of the EEA or the UK, we rely on the European Commission’s (and, for the UK, the ICO’s) **Standard Contractual Clauses**, incorporated into our agreements with the providers listed in Section 4, and — where the provider is certified — on the **EU–US Data Privacy Framework** and its UK extension. You can request a copy of the safeguards that apply to a particular transfer by contacting us (see Section 12). We use established, widely‑used providers and take reasonable steps to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
 
 ---
 
@@ -198,5 +239,8 @@ This Privacy Policy may be updated periodically. Any changes take effect once po
 If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:
 
 📧 **support@tap-app.com.au**
+
+📮 **Etienne Petrel**  
+Sydney NSW 2000, Australia
 
 **Privacy Officer.** Budgie's Privacy Officer is accountable for our compliance with this policy and with applicable privacy laws, and can be reached at support@tap-app.com.au.
