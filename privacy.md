@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 1 September 2026_
+_Last updated: 5 September 2026_
 
 ---
 
@@ -131,6 +131,7 @@ Depending on where you live, you may have some or all of the following rights in
 - **Opt out** of personalized advertising
 - **Opt out** of AI insights, by turning the feature off in **Profile → AI insights**
 - **Withdraw consent** where our processing relies on your consent
+- **Receive a copy** of the data you provided to us in a portable format — you can export it yourself at any time via **Settings → Export**
 - **Lodge a complaint** with your local privacy regulator
 
 To exercise any of these rights, use the in‑app controls (for example **Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
@@ -185,7 +186,7 @@ Data handled through **Google Firebase / Firestore** is **encrypted in transit**
 
 Summaries sent for **AI insights** travel over an encrypted (TLS) connection to our server function and on to OpenAI, and are processed on OpenAI's servers in the **United States**.
 
-Because Google, Apple, OpenAI, and our other providers operate globally, your information may be stored or processed on servers located **outside your country**, including in countries whose data‑protection laws differ from your own. We use established, widely‑used providers and take reasonable steps to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
+Because Google, Apple, OpenAI, and our other providers operate globally, your information may be stored or processed on servers located **outside your country**, including in countries whose data‑protection laws differ from your own. Specifically, cloud sync data is stored in **Google’s United States multi‑region**, and both our own server function and OpenAI’s processing of AI insight summaries take place in the **United States**. We use established, widely‑used providers and take reasonable steps to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
 
 ---
 
@@ -198,5 +199,8 @@ This Privacy Policy may be updated periodically. Any changes take effect once po
 If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:
 
 📧 **support@tap-app.com.au**
+
+📮 **Etienne Petrel**  
+Sydney NSW 2000, Australia
 
 **Privacy Officer.** Budgie's Privacy Officer is accountable for our compliance with this policy and with applicable privacy laws, and can be reached at support@tap-app.com.au.
