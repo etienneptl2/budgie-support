@@ -1,0 +1,26 @@
+# Builds the Jekyll site on pull requests.
+#
+# GitHub Pages' own "pages build and deployment" only runs after a push to
+# main, so it can report a broken site but never prevent one: by the time it
+# fails, the breakage is already live. This job runs the same build on the pull
+# request instead, which is what makes it usable as a required check.
+name: Site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Jekyll site builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
