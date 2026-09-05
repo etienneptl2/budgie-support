@@ -9,20 +9,15 @@
 # pasted into App Store Connect is outside anything CI can see -- see README.
 name: EULA
 
+# Runs on every pull request, deliberately unfiltered by path. This is a
+# required status check, and GitHub treats a required check that never reports
+# as permanently pending -- a `paths:` filter here would block every pull
+# request that happens not to touch the EULA. The job is a checkout and one
+# command, so running it always is cheaper than the failure mode.
 on:
   pull_request:
-    paths:
-      - terms.md
-      - terms-appstore.txt
-      - scripts/build-eula-text.py
-      - .github/workflows/eula.yml
   push:
     branches: [main]
-    paths:
-      - terms.md
-      - terms-appstore.txt
-      - scripts/build-eula-text.py
-      - .github/workflows/eula.yml
 
 permissions:
   contents: read
