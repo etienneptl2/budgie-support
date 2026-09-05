@@ -97,4 +97,5 @@ If you have any questions about these Terms, please contact us at:
 
 📧 **support@tap-app.com.au**
 
-📮 **[DEVELOPER NAME AND POSTAL ADDRESS — TO BE COMPLETED]**
+📮 **Etienne Petrel**  
+Sydney NSW 2000, Australia
