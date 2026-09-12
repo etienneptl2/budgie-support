@@ -38,11 +38,11 @@ When it's on, Budgie sends **aggregated totals** — monthly income and spending
 
 ### How do I manage or cancel my subscription?
 
-Open **Settings → Manage subscription** in the app (this opens your store's subscription sheet), or manage it directly in your **Apple App Store** or **Google Play** account settings.
+Open **Profile → Settings → Manage subscription** in the app (this opens your store's subscription sheet), or manage it directly in your **Apple App Store** or **Google Play** account settings.
 
 ### I paid for Budgie Pro but don't see it (new device or reinstall).
 
-Open **Settings → Restore purchases**. Make sure you're signed in with the same Apple or Google account you used to purchase, and the same Budgie account you subscribed with.
+Open **Profile → Settings → Restore purchases**. Make sure you're signed in with the same Apple or Google account you used to purchase, and the same Budgie account you subscribed with.
 
 ---
 

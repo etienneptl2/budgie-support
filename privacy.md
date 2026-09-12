@@ -115,11 +115,11 @@ We do **not** sell your personal or financial data for money, and we do **not** 
 
 ## 5. Advertising & Your Choices
 You can manage how ads are personalized:
-- On **iOS**, you can change tracking permission in your device’s Settings, and review your choices via **Settings → Privacy options** in the App (where available).
+- On **iOS**, you can change tracking permission in your device’s Settings, and review your choices via **Profile → Settings → Privacy options** in the App (where available).
 - On **Android**, you can reset or limit your advertising ID in your device settings.
-- In the EEA/UK, you can re‑open the consent form at any time via **Settings → Privacy options**.
+- In the EEA/UK, you can re‑open the consent form at any time via **Profile → Settings → Privacy options**.
 
-If you are a US resident, you can opt out of the sale or sharing of your personal information for cross‑context behavioural advertising at any time via **Settings → Privacy options** in the App. Opting out does not remove ads; it means the ads you see are not personalized. You can remove ads entirely by subscribing to **Budgie Pro**.
+If you are a US resident, you can opt out of the sale or sharing of your personal information for cross‑context behavioural advertising at any time via **Profile → Settings → Privacy options** in the App. Opting out does not remove ads; it means the ads you see are not personalized. You can remove ads entirely by subscribing to **Budgie Pro**.
 
 ---
 
@@ -131,7 +131,7 @@ Depending on where you live, you may have some or all of the following rights in
 - **Opt out** of personalized advertising
 - **Opt out** of AI insights, by turning the feature off in **Profile → AI insights**
 - **Withdraw consent** where our processing relies on your consent
-- **Receive a copy** of the data you provided to us in a portable format — you can export it yourself at any time via **Settings → Export**
+- **Receive a copy** of the data you provided to us in a portable format — you can export it yourself at any time via **Profile → Settings → Export**
 - **Lodge a complaint** with your local privacy regulator
 
 To exercise any of these rights, use the in‑app controls (for example **Profile → Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
@@ -147,7 +147,7 @@ We handle your information in accordance with the **Australian Privacy Act 1988*
 ### Canada
 We handle your information in accordance with the **Personal Information Protection and Electronic Documents Act (PIPEDA)**. If you are in Canada and have a privacy complaint, you may contact our Privacy Officer (see Section 12) and, if unsatisfied, lodge a complaint with the **Office of the Privacy Commissioner of Canada (OPC)** at [priv.gc.ca](https://priv.gc.ca).
 
-If you live in Quebec, you also have rights under the **Act respecting the protection of personal information in the private sector** (“Law 25”). These include the rights to be informed about, access, correct and delete your information, to withdraw your consent, and to receive a copy of the information you provided to us in a structured, commonly used technological format — you can export your data yourself at any time via **Settings → Export** in the App.
+If you live in Quebec, you also have rights under the **Act respecting the protection of personal information in the private sector** (“Law 25”). These include the rights to be informed about, access, correct and delete your information, to withdraw your consent, and to receive a copy of the information you provided to us in a structured, commonly used technological format — you can export your data yourself at any time via **Profile → Settings → Export** in the App.
 
 Budgie shows advertising that uses profiling. You can deactivate this at any time by declining tracking when prompted on iOS, or by turning tracking off for Budgie in your device’s Settings at any time afterwards. Section 5 describes these choices in more detail.
 
@@ -156,7 +156,7 @@ Quebec complaints may be directed to the **Commission d’accès à l’informat
 ### United States (including California)
 Depending on your state of residence, you may have rights under state privacy laws such as the **California Consumer Privacy Act (CCPA/CPRA)** and comparable laws in other US states. These may include the right to know what personal information we process, to request a copy of it, to correct it, to request its deletion, and to opt out of the sale or sharing of your personal information for targeted or cross‑context behavioural advertising.
 
-We do **not** sell your personal information for money. As explained in Section 4, personalized advertising may nonetheless constitute a “sale” or “sharing” under these laws. To opt out, use **Settings → Privacy options** in the App, or decline tracking when prompted on iOS. You can also limit ad personalization using the other choices described in Section 5.
+We do **not** sell your personal information for money. As explained in Section 4, personalized advertising may nonetheless constitute a “sale” or “sharing” under these laws. To opt out, use **Profile → Settings → Privacy options** in the App, or decline tracking when prompted on iOS. You can also limit ad personalization using the other choices described in Section 5.
 
 To exercise access, correction or deletion rights, contact us (see Section 12). You can also delete your account and its synced data yourself at any time via **Profile → Settings → Delete account** in the App. We will not discriminate against you for exercising any of these rights.
 
@@ -167,6 +167,7 @@ Many countries have their own privacy laws, most of which provide rights similar
 
 ## 8. Data Retention & Deletion
 - **Local data** remains on your device until you delete it within the App or uninstall the App. Uninstalling removes all locally stored data.
+- **Erasing your data without deleting your account.** **Profile → Settings → Erase all data** clears your budgeting data on the device and, if cloud sync is on, in the cloud and on your other devices. Each erased record leaves a **deletion marker** — an identifier and a timestamp, containing no financial information — which we retain so that the erase reaches your other devices.
 - **Cloud sync data** is stored until you delete it. You can permanently delete your account and all associated cloud data at any time via **Profile → Settings → Delete account**, which removes your Firebase authentication record and your Firestore data.
 - **AI insight cards** are held on your device only, and are refreshed or replaced as your data changes. They are deleted when you turn off **Profile → AI insights**, when you erase your data, or when you delete your account. The summary sent to OpenAI is retained by OpenAI for a limited period (currently up to 30 days) for abuse monitoring and then deleted, under their API policy; the daily usage counter we keep is removed when you delete your account.
 - **Subscription and purchase records** held by RevenueCat and the app stores are retained under their respective policies. You manage or cancel a Budgie Pro subscription through your Apple App Store or Google Play account.
