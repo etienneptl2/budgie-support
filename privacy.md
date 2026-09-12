@@ -5,7 +5,7 @@ layout: default
 
 # Privacy Policy
 **Budgie**
-_Last updated: 5 September 2026_
+_Last updated: 12 September 2026_
 
 ---
 
@@ -134,7 +134,7 @@ Depending on where you live, you may have some or all of the following rights in
 - **Receive a copy** of the data you provided to us in a portable format — you can export it yourself at any time via **Settings → Export**
 - **Lodge a complaint** with your local privacy regulator
 
-To exercise any of these rights, use the in‑app controls (for example **Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
+To exercise any of these rights, use the in‑app controls (for example **Profile → Settings → Delete account**) or contact us (see Section 12). Some rights, and the way they apply, depend on the privacy laws of your country — see Section 7.
 
 ---
 
@@ -158,7 +158,7 @@ Depending on your state of residence, you may have rights under state privacy la
 
 We do **not** sell your personal information for money. As explained in Section 4, personalized advertising may nonetheless constitute a “sale” or “sharing” under these laws. To opt out, use **Settings → Privacy options** in the App, or decline tracking when prompted on iOS. You can also limit ad personalization using the other choices described in Section 5.
 
-To exercise access, correction or deletion rights, contact us (see Section 12). You can also delete your account and its synced data yourself at any time via **Settings → Delete account** in the App. We will not discriminate against you for exercising any of these rights.
+To exercise access, correction or deletion rights, contact us (see Section 12). You can also delete your account and its synced data yourself at any time via **Profile → Settings → Delete account** in the App. We will not discriminate against you for exercising any of these rights.
 
 ### Other countries
 Many countries have their own privacy laws, most of which provide rights similar to those in Section 6. Where such laws apply to you, we will honour the rights they grant. If you have questions about your rights, or wish to reach the privacy regulator in your country, please contact us (see Section 12).
@@ -167,10 +167,12 @@ Many countries have their own privacy laws, most of which provide rights similar
 
 ## 8. Data Retention & Deletion
 - **Local data** remains on your device until you delete it within the App or uninstall the App. Uninstalling removes all locally stored data.
-- **Cloud sync data** is stored until you delete it. You can permanently delete your account and all associated cloud data at any time via **Settings → Delete account**, which removes your Firebase authentication record and your Firestore data.
+- **Cloud sync data** is stored until you delete it. You can permanently delete your account and all associated cloud data at any time via **Profile → Settings → Delete account**, which removes your Firebase authentication record and your Firestore data.
 - **AI insight cards** are held on your device only, and are refreshed or replaced as your data changes. They are deleted when you turn off **Profile → AI insights**, when you erase your data, or when you delete your account. The summary sent to OpenAI is retained by OpenAI for a limited period (currently up to 30 days) for abuse monitoring and then deleted, under their API policy; the daily usage counter we keep is removed when you delete your account.
 - **Subscription and purchase records** held by RevenueCat and the app stores are retained under their respective policies. You manage or cancel a Budgie Pro subscription through your Apple App Store or Google Play account.
 - Alternatively, you can request deletion by emailing us (see Section 12).
+
+Step‑by‑step instructions, and what is deleted versus retained, are set out on the [Delete your account](./delete-account.md) page.
 
 ---
 
