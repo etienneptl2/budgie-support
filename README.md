@@ -24,7 +24,7 @@ Send your suggestion via email and the team will review it for future updates.
 
 Your budgeting data is stored **locally on your device** by default, and the App is free to use without an account.
 
-If you subscribe to **Budgie Pro**, **sign in** (with Apple or Google), and turn on **cloud sync**, your data is stored in Google Firebase so it can sync across your devices. The free App displays ads via Google AdMob. See the [Privacy Policy](./privacy.md) for full details. You can delete your account and data at any time in Settings → Delete account.
+If you subscribe to **Budgie Pro**, **sign in** (with Apple or Google), and turn on **cloud sync**, your data is stored in Google Firebase so it can sync across your devices. The free App displays ads via Google AdMob. See the [Privacy Policy](./privacy.md) for full details. You can delete your account and data at any time in Profile → Settings → Delete account — see [Delete your account](./delete-account.md).
 
 ### What are AI insights, and what gets sent?
 
@@ -54,7 +54,7 @@ This repository hosts the official support page for the **Budgie** mobile applic
 
 ## Legal
 
-[Privacy Policy](./privacy.md) · [Terms of Use (EULA)](./terms.md)
+[Privacy Policy](./privacy.md) · [Terms of Use (EULA)](./terms.md) · [Delete your account](./delete-account.md)
 
 `terms.md` is the source of truth for the EULA. The app links to the published
 page, but App Store Connect keeps its own **pasted copy** — its custom licence
