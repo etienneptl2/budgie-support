@@ -80,7 +80,7 @@ backup first, via **Profile → Settings → Export**.
 All of your income and expense entries (including any notes), budgets and
 income targets, savings goals, recurring series and custom categories. Your
 starting balance is reset to zero, and any AI insight cards are cleared. If
-**cloud sync** is turned on, the erase also applies to the copy held in the
+**Sync to cloud** is turned on, the erase also applies to the copy held in the
 cloud and to every other device signed in to your account.
 
 ### What is kept
