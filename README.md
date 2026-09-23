@@ -34,7 +34,15 @@ When it's on, Budgie sends **aggregated totals** — monthly income and spending
 
 ### What is Budgie Pro?
 
-**Budgie Pro** is an optional subscription that unlocks **cloud sync** across your devices and **removes ads**. It's available as a **monthly** or **yearly** auto‑renewing subscription, billed through the App Store or Google Play.
+**Budgie Pro** is an optional subscription. It adds:
+
+- **AI insights** — every insight card unlocked the moment it’s written.
+- **Sync across devices** — your entries, budgets and goals on every device you sign into.
+- **No ads** — every ad disappears, everywhere in the app.
+- **Hide amounts** — cover every amount at once, then tap to bring them back.
+- **Smart suggestions** — one‑tap entries for the things you log again and again.
+
+It’s available as a **monthly** or **yearly** auto‑renewing subscription, billed through the App Store or Google Play. Pro is tied to your Budgie account, so you’ll be asked to sign in (with Apple or Google) before subscribing.
 
 ### How do I manage or cancel my subscription?
 
